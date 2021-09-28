@@ -1,0 +1,16 @@
+#Grafica
+- Cambiare font
+- Colori di sfondo
+- Responsive --> timeline
+- Righe per separare
+- Immagine
+
+- Nav link click fuori titolo
+
+- Completare testi
+
+- Completare invio mail
+
+- Footer
+    - Icone IG DISC GITHUB GMAIL
+    - © 2021 Nicholas Librina

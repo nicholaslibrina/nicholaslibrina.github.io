@@ -1,0 +1,105 @@
+html, body{
+    overflow-x: hidden;
+}
+
+.navbar-brand{
+    color: #c1f762 !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+    color: #c1f762 !important;
+}
+
+h1{
+    color: #7FC042 !important;
+}
+
+.home{
+    height: -webkit-fill-available;
+}
+
+.text-centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.home-title{
+    font-size: 50px;
+}
+
+.home-title-bold{
+    font-size: 50px;
+    font-weight: bold;
+    color: #7FC042;
+}
+
+.card{
+    width: 50% !important;
+    border: 0px solid rgb(218, 218, 218) !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 3px 6px 0px rgb(180, 180, 180) !important;
+}
+
+.card-form{
+    width: 100% !important;
+    padding: 20px;
+}
+
+textarea {
+    resize: none !important;
+    height: 350px !important; 
+}
+
+label{
+    font-weight: bold;
+    color: #7FC042;
+}
+
+.btn-primary{
+    background-color: #7FC042 !important;
+    border-color: #7FC042 !important;
+    font-weight: bold !important;
+    border-radius: 20px !important;
+    width: 200px !important;
+    height: 40px !important;
+}
+
+.form-control:focus {
+    outline: 0px !important;
+    border-color: #ced4da !important;
+    box-shadow: none !important;
+}
+
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+.footer{
+    
+    height: 100px;
+}

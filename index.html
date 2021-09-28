@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/timeline.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <title>Nicholas Librina</title>
+    </head>
+    <body onload="loadTranslation()">
+        <!-- MENU -->
+
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+            <!-- Navbar content -->
+            <a class="navbar-brand" data-tag="menu.name"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse justify-content-sm-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home" data-tag="menu.home"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me" data-tag="menu.about-me"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio" data-tag="menu.portfolio"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-me" data-tag="menu.contact"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- HOME -->
+        
+        <div id="home" class="home text-center py-5 bg-dark">
+            <div class="text-centered py-5">
+                <div class="py-5">
+                    <h3 class="home-title-bold" data-tag="home.title-bold"></h3>
+                    <h3 class="home-title pl-2" data-tag="home.title"></h3>
+                </div>
+                <img src="./assets/home.png" />
+            </div>
+        </div>
+        <!-- CONTAINER -->
+        <div class="container">
+            
+            <!-- ABOUT ME -->
+            <div id="about-me" class="py-5">
+                <div class="row pt-5">
+                    <div class="col">
+                        <img src="./assets/about-me.jpg" alt="technology" width="540px" />
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <h1 data-tag="about-me.title"></h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <span data-tag="about-me.text"></span>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <!-- END ABOUT ME -->
+
+            <!-- TIMELINE / PORTFOLIO -->
+            <div id="portfolio" class=" py-5">
+                <div class="row pt-5">
+                    <div class="col">
+                        <h1 data-tag="timeline.title"></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="timeline py-5">
+                            <div class="row circle">
+                                <div class="col text-right">
+                                    <span class="pr-3" data-tag="timeline.first-data"></span>
+                                </div>
+                                <div class="col">
+                                    <div class="pl-3">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title" data-tag="timeline.first-card-title"></h5>
+                                                <p class="card-text" data-tag="timeline.first-card-text"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row circle py-5">
+                                <div class="col">
+                                    <div class="pr-3">
+                                        <div class="card card-right">
+                                            <div class="card-body">
+                                                <h5 class="card-title" data-tag="timeline.second-card-title"></h5>
+                                                <p class="card-text" data-tag="timeline.second-card-text"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <span class="pl-3" data-tag="timeline.second-data" ></span>
+                                </div>
+                            </div>
+                            <div class="row circle py-5">
+                                <div class="col text-right">
+                                    <span class="pr-3" data-tag="timeline.third-data" ></span>
+                                </div>
+                                <div class="col">
+                                    <div class="pl-3">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title" data-tag="timeline.third-card-title"></h5>
+                                                <p class="card-text" data-tag="timeline.third-card-text"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END TIMELINE / PORTFOLIO -->
+
+            <!-- CONTACT ME -->
+            <div id="contact-me" class="row py-5">
+                <div class="col">
+                    <div class="py-4">
+                        <h1 data-tag="contact-me.title"></h1>
+                        <span data-tag="contact-me.text"></span>
+                    </div>
+                    <div class="card card-form">
+                        <form enctype="multipart/form-data" id="mailForm">
+                            <div class="form-group">
+                                <label data-tag="contact-me.mail"></label>
+                                <input type="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label data-tag="contact-me.body"></label>
+                                <textarea name="message" class="form-control"></textarea required> 
+                            </div>
+                            <button type="submit" class="btn btn-primary float-right" data-tag="contact-me.submit"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- END CONTACT ME -->
+
+        </div>
+        <!-- END CONTAINER -->
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="row">
+                <div class="col">
+                    <span class="pr-3" data-tag="footer.all-rights-reserved"></span>
+                </div>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+
+    </body>
+    <script src="translate.js"></script>
+    <script>
+        
+        function returnCurrentLanguage() {
+            var lang = localStorage.getItem('lang') || navigator.language.slice(0, 2);
+            if(lang != "it"){
+                return "en";
+            }else{
+                return "it";
+            }
+        }
+
+        function loadTranslation(){
+            var translate = new Translate();
+            var currentLng = returnCurrentLanguage()
+            var attributeName = 'data-tag';
+            translate.init(attributeName, currentLng);
+            translate.process(); 
+        }
+
+        $(".navbar-nav .nav-link").on("click", function(){
+            $(".navbar-nav").find(".active").removeClass("active");
+            $(this).addClass("active");
+        });
+
+        $("#mailForm").submit(function(event){
+            event.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: "contact_me.php",
+                data: $("#mailForm").serialize(),
+                success: function(){
+                    // $('.success').fadeIn(1000);
+                    console.log($("#mailForm").serialize())
+                }
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>

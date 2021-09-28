@@ -1,0 +1,34 @@
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+
+}
+
+.circle::after {
+    content: '';
+    text-align: center;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #7FC042 ;
+    border: 4px solid #7FC042 ;
+    border-radius: 50%;
+    z-index: 1;
+    left: calc(50% - 10.5px);
+}
+
+.card-right{
+    margin-left: auto;
+}
+  
