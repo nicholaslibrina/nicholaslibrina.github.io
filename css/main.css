@@ -99,7 +99,51 @@ label{
 	height: 100%;
 }
 
+a{
+    color: white !important;
+}
+
 .footer{
+    color: white;
+}
+
+.color-green{
+    color: #7FC042;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .home-title{
+        font-size: 35px;
+    }
     
-    height: 100px;
+    .home-title-bold{
+        font-size: 35px;
+    }
+
+    img[alt~="technology"]{
+        width: -webkit-fill-available;
+    }
+
+    .card{
+        width: 75% !important;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 2;
+    }
+
+    .card-form{
+        width: 100% !important;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .card{
+        width: 100% !important;
+    }
+
+    img[alt~="technology"]{
+        width: -webkit-fill-available;
+    }
 }
