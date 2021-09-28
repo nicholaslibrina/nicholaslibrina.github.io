@@ -140,7 +140,7 @@
                         <span data-tag="contact-me.text"></span>
                     </div>
                     <div class="card card-form">
-                        <form enctype="multipart/form-data" id="mailForm">
+                        <form action="contact_me.php" method="POST" id="mailForm">
                             <div class="form-group">
                                 <label data-tag="contact-me.mail"></label>
                                 <input type="email" name="email" class="form-control" required>
@@ -195,18 +195,18 @@
             $(this).addClass("active");
         });
 
-        $("#mailForm").submit(function(event){
-            event.preventDefault();
-            $.ajax({
-                type: "POST",
-                url: "contact_me.php",
-                data: $("#mailForm").serialize(),
-                success: function(){
-                    // $('.success').fadeIn(1000);
-                    console.log($("#mailForm").serialize())
-                }
-            });
-        });
+        // $("#mailForm").submit(function(event){
+        //     event.preventDefault();
+        //     $.ajax({
+        //         type: "POST",
+        //         url: "contact_me.php",
+        //         data: $("#mailForm").serialize(),
+        //         success: function(){
+        //             // $('.success').fadeIn(1000);
+        //             console.log($("#mailForm").serialize())
+        //         }
+        //     });
+        // });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
