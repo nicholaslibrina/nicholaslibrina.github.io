@@ -101,9 +101,7 @@ label{
 }
 
 img[alt~="technology"]{
-    width: fit-content;
-    width: -webkit-fill-available;
-    width: -moz-available;
+    width: inherit;
 }
 
 a{
