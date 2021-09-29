@@ -12,7 +12,7 @@
     <body onload="loadTranslation()">
         <!-- MENU -->
 
-        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark background-transparent">
             <!-- Navbar content -->
             <a class="navbar-brand" data-tag="menu.name"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +44,6 @@
                     <h3 class="home-title-bold" data-tag="home.title-bold"></h3>
                     <h3 class="home-title pl-2" data-tag="home.title"></h3>
                 </div>
-                <img src="./assets/home.png" />
             </div>
         </div>
         <!-- CONTAINER -->
@@ -182,7 +181,7 @@
         <!-- END CONTAINER -->
 
         <!-- FOOTER -->
-        <div class="footer bg-dark">
+        <div class="footer">
             <div class="row py-5">
                 <div class="col text-center">
                     <div class="row">
@@ -241,6 +240,16 @@
                 e.stopPropagation();
             }
             $(this).addClass('was-validated');
+        });
+
+        $(window).scroll(function() {
+            var hH = $('#home').outerHeight();
+            var wS = $(this).scrollTop();
+            if (wS > hH){
+                $(".navbar").removeClass("background-transparent").addClass("background-blue")
+            }else if(wS < hH){
+                $(".navbar").removeClass("background-blue").addClass("background-transparent")
+            }
         });
 
     </script>

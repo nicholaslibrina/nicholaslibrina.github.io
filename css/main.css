@@ -3,20 +3,24 @@ html, body{
 }
 
 .navbar-brand{
-    color: #c1f762 !important;
+    color: #B59281 !important;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
-    color: #c1f762 !important;
+    color: #B59281 !important;
 }
 
 h1{
-    color: #7FC042 !important;
+    color: #B59281 !important;
 }
 
 .home{
     height: -webkit-fill-available;
     width: -moz-available;
+    background-image: url(../assets/background-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .text-centered{
@@ -29,12 +33,13 @@ h1{
 
 .home-title{
     font-size: 50px;
+    color: #B59281;
 }
 
 .home-title-bold{
     font-size: 50px;
     font-weight: bold;
-    color: #7FC042;
+    color: white;
 }
 
 .card{
@@ -56,12 +61,12 @@ textarea {
 
 label{
     font-weight: bold;
-    color: #7FC042;
+    color: #B59281;
 }
 
 .btn-primary{
-    background-color: #7FC042 !important;
-    border-color: #7FC042 !important;
+    background-color: #B59281 !important;
+    border-color: #B59281 !important;
     font-weight: bold !important;
     border-radius: 20px !important;
     width: 200px !important;
@@ -100,6 +105,14 @@ label{
 	height: 100%;
 }
 
+.background-transparent{
+    background-color: transparent;
+}
+
+.background-blue{
+    background-color: #16202C;
+}
+
 img[alt~="technology"]{
     width: inherit;
 }
@@ -110,10 +123,11 @@ a{
 
 .footer{
     color: white;
+    background-color: #16202C;
 }
 
 .color-green{
-    color: #7FC042;
+    color: #B59281;
 }
 
 .form-control.is-valid, .was-validated .form-control:valid{
