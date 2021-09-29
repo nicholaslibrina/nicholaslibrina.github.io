@@ -16,6 +16,7 @@ h1{
 
 .home{
     height: -webkit-fill-available;
+    width: -moz-available;
 }
 
 .text-centered{
@@ -123,6 +124,7 @@ a{
 
     img[alt~="technology"]{
         width: -webkit-fill-available;
+        width: -moz-available;
     }
 
     .card{
@@ -145,5 +147,6 @@ a{
 
     img[alt~="technology"]{
         width: -webkit-fill-available;
+        width: -moz-available;
     }
 }
