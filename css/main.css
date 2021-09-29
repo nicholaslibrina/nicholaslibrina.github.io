@@ -100,6 +100,12 @@ label{
 	height: 100%;
 }
 
+img[alt~="technology"]{
+    width: fit-content;
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+
 a{
     color: white !important;
 }
@@ -122,11 +128,6 @@ a{
         font-size: 35px;
     }
 
-    img[alt~="technology"]{
-        width: -webkit-fill-available;
-        width: -moz-available;
-    }
-
     .card{
         width: 75% !important;
         left: 50%;
@@ -143,10 +144,5 @@ a{
 @media only screen and (max-width: 991px) {
     .card{
         width: 100% !important;
-    }
-
-    img[alt~="technology"]{
-        width: -webkit-fill-available;
-        width: -moz-available;
     }
 }
