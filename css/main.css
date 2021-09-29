@@ -116,6 +116,18 @@ a{
     color: #7FC042;
 }
 
+.form-control.is-valid, .was-validated .form-control:valid{
+    background-image: none !important;
+    background-repeat: unset !important;
+    background-position: unset !important;
+    background-size: initial !important;
+    border-color: #d7d7d7 !important;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid{
+    background-image: none !important;
+}
+
 @media only screen and (max-width: 600px) {
 
     .home-title{
