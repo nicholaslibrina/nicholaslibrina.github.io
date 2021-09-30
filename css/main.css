@@ -145,6 +145,11 @@ a{
     background-image: none !important;
 }
 
+hr{
+    width: 25%;
+    border-top: 1px solid rgba(0,0,0,.5) !important;
+}
+
 @media only screen and (max-width: 600px) {
 
     .home-title{
