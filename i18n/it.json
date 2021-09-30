@@ -14,6 +14,12 @@
     "timeline.second-data": "Novembre/Dicembre 2019",
     "timeline.third-card-text": "Evoluzione del progetto, con un team internazionale e con metodologia AGILE.",
     "timeline.third-card-title": "Web app bancaria",
+    "timeline.fourth-card-text": "Primo approccio a Thymeleaf e spring, per lo sviluppo di una Web App per la gestione ecobonus.<br> Incaricato di gestire tutto il frontend.",
+    "timeline.fourth-card-title": "Web App Ecobonus",
+    "timeline.fourth-data": "Ottobre 2020",
+    "timeline.fifth-card-text": "Continuo sviluppo.",
+    "timeline.fifth-card-title": "Web App Ecobonus",
+    "timeline.fifth-data": "Ottobre 2021",
     "contact-me.mail": "Insesrisci la tua email",
     "contact-me.title": "Contattami",
     "timeline.title": "Portfolio",
@@ -22,7 +28,8 @@
     "contact-me.body": "Inserisci il corpo",
     "contact-me.submit": "Invia",
     "about-me.title": "Informazioni su di me",
-    "about-me.text": "Mi chiamo Nicholas Librina, ho 20 anni e sono di Morbegno (SO). Ho frequentato l'Itis Enea Mattei di Sondrio diplomandomi nel 2019. Lavoro presso Pmpay con sede a Traona (SO) da ormai un anno. Durante il corso di questo anno ho potuto imparare molto, dati i differenti incarichi portati a termine, da semplici pagine web, a newsletter a web app. Nel mio percorso scolastico, ho potuto imparare diversi linguaggi di programmazione, tra cui: C, Java, HTML, Javascript, Jquery, PHP, MYSQL. Nella mia esperienza lavorativa, invece, ho potuto approfondire meglio HTML Javascript e Jquery, utilizzando anche Bootstrap, e alcuni componenti di altre librerie come Ant Design e Material Design. Inoltre ho utilizzato React per lo sviluppo di Web App, e al momento sto apprendendo Spring e Thymeleaf, per lo sviluppo di backend.",
+    "about-me.text1": "Mi chiamo Nicholas Librina, ho 20 anni e sono di Morbegno (SO). <br> Ho frequentato l'Itis Enea Mattei di Sondrio diplomandomi nel 2019. <br> Al momento lavoro presso Pmpay.",
+    "about-me.text2": "Mi occupo della creazione di pagine web, o web app tramite diversi linguaggi, tra cui  HTML, CSS, Javascript, Jquery, React, Thymeleaf.",
     "timeline.third-data": "Febbraio 2020",
     "footer.all-rights-reserved": "© 2021 Nicholas Librina"
 }
